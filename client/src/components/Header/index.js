@@ -10,7 +10,7 @@ function Header() {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6">
-        Google Search
+        Google Books Search
         </Typography>
         <Button color="inherit">Login</Button>
       </Toolbar>
