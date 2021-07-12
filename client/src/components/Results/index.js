@@ -3,9 +3,9 @@ import styled, { css } from 'styled-components'
 import BookCard from '../../components/BookCard'
 
 const Section = styled.section `
-    border: 2px solid;
-    margin: 10px;
-    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
     text-align: left;
 `
 

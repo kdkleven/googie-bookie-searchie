@@ -1,6 +1,8 @@
 import React from "react"
-import { AppBar, Toolbar, IconButton, Typography, Button } from '@material-ui/core'
-import { Menu as MenuIcon } from '@material-ui/icons'
+import { AppBar, Toolbar, IconButton, Typography, Button, Menu as MenuIcon } from '@material-ui/core'
+import Menu from '@material-ui/core/Menu'
+import MenuItem from '@material-ui/core/MenuItem'
+
 
 function Header() {
   return (
@@ -8,6 +10,10 @@ function Header() {
       <Toolbar>
         <IconButton edge="start" color="inherit" aria-label="menu">
           <MenuIcon />
+          <Menu>
+            <MenuItem>Search</MenuItem>
+            <MenuItem>Saved</MenuItem>
+          </Menu>
         </IconButton>
         <Typography variant="h6">
         Google Books Search

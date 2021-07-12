@@ -1,5 +1,6 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
+import { Button } from '@material-ui/core'
 
 const Section = styled.section `
     margin: 10px;
@@ -9,9 +10,9 @@ const Section = styled.section `
 function BookCard () {
     return (
         <Section class="card">
-          <h4>Title</h4><span><button>View</button><button>Save</button></span>
+          <h4>Title<span><Button>View</Button><Button>Save</Button></span></h4>
           <h5>Subtitle</h5>
-          <h6>Written by author</h6>
+          <h6>Written by </h6>
           <img src="" alt="picture"/>Image
           <p>Description</p>
         </Section>
