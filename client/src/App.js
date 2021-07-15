@@ -1,11 +1,11 @@
 import React from "react";
-import Search from "./views/Search"
+import ReactRouter from "./Router"
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Search />
+      <ReactRouter />
     </div>
   );
 }

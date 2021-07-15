@@ -7,7 +7,6 @@ import Results from "../../components/Results"
 function Search() {
   return (
     <div className="App">
-      <Header />
         <Title />
           <BookSearch />
           <Results />     

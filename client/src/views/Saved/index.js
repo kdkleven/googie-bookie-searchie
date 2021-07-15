@@ -3,15 +3,13 @@ import Header from "../../components/Header"
 import Title from "../../components/Title"
 
 
-function Search() {
+function Saved() {
   return (
     <div className="App">
-      <Header />
         <Title />
-           
     </div>
   );
 }
 
 
-export default Search;
+export default Saved;
