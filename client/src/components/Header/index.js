@@ -30,10 +30,10 @@ export default function Header() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>  
-          <Button href='/search' onClick={preventDefault} className={classes.headerButton}>
+          <Button href='/search' className={classes.headerButton}>
             Search Books
           </Button>
-          <Button href='/saved' onClick={preventDefault} className={classes.headerButton}>
+          <Button href='/saved' className={classes.headerButton}>
             Saved Books
           </Button>
           <Typography variant="h6" className={classes.title}>

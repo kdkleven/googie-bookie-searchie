@@ -9,7 +9,7 @@ const Section = styled.section `
 
 function BookCard () {
     return (
-        <Section class="card">
+        <Section className="card">
           <h4>Title<span><Button>View</Button><Button>Save</Button></span></h4>
           <h5>Subtitle</h5>
           <h6>Written by </h6>

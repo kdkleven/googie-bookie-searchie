@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
-import { Button, TextField } from '@material-ui/core'
+import BookCard from '../../components/BookCard'
 
 const Section = styled.section `
     border: 2px solid black;
@@ -9,15 +9,13 @@ const Section = styled.section `
     text-align: left;
 `
 
-function BookSearch() {
+function SavedBooks() {
     return (
         <Section>
-            <h3>Saved Books</h3>
-            <p>Book</p>
-            <TextField placeholder="Harry Potter" styles="width:900px" />
-            <Button color="inherit">Search</Button>
+        <h3>SavedBooks</h3>
+            <BookCard />
         </Section>
     )
 }
 
-export default BookSearch
+export default SavedBooks
