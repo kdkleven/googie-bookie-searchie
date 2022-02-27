@@ -8,7 +8,8 @@ function Saved() {
   return (
     <div className="App">
         <Title />
-        <SavedBooks />
+          {/* <Header/> */}
+            <SavedBooks />
     </div>
   );
 }
